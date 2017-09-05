@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Restaurante</title>
+		<link rel="stylesheet" href="Estilos/bootstrap.css">
+		<link rel="stylesheet" href="Estilos/estilos.css">
+	</head>
+	<body>
+		<nav class="home-menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="#">Quienes Somos</a></li>
+					<li id= "menuli"><a href="#">Menu</a></li>
+					<li><a href="#">Contacto</a></li>
+					<li><a href="#">Reservas</a></li>
+				</ul>
+			</nav>
+				<div id="order">
+			<img id="chef" src="Imagenes/chef.png">
+			<p id="orderDescription">Haz click en una comida para añadirla</p>
+			<div id="orderContainer">
+			</div>
+		</div>
+		<div class="container-fluid asd">
+		<img class="logo" src="Imagenes/logo.png">
+			<p class="menu-tittle">Menu</p>
+			<div id="menuContainer">
+				<div id= "navpag" class="container-fluid">
+					<div class="row d-flex justify-content-center">
+						<div onclick="pagination(this)" id="pag1" class="pagHeader col-1">
+							<p>Entrantes</p>
+							<button></button>
+						</div>
+						<div onclick="pagination(this)" id="pag2" class="pagHeader col-1">
+							<p>Bebida</p>
+							<button></button>
+						</div>
+						<div onclick="pagination(this)" id="pag3" class="pagHeader col-1">
+							<p>Primer Plato</p>
+							<button></button>
+						</div>
+						<div onclick="pagination(this)" id="pag4" class="pagHeader col-1">
+							<p>Segundo Plato</p>
+							<button></button>
+						</div>
+						<div onclick="pagination(this)" id="pag5" class="pagHeader col-1">
+							<p>Postre</p>
+							<button></button>
+						</div>
+					</div>
+				</div>
+
+				<div id="page1Content" class="pageContent">
+				</div>
+				<div id="page2Content" class="pageContent">
+				</div>
+				<div id="page3Content" class="pageContent">
+				</div>
+				<div id="page4Content" class="pageContent">
+				</div>
+				<div id="page5Content" class="pageContent">
+				</div>
+				<div id="page6Content" class="pageContent">
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid footer">
+			<div class="row">
+	    		<div class="col">
+		      		<ul>
+		      			<li><h4>Sobre Nosotros</h4></li>
+		      			<li><a href="#">Inicio</a></li>
+		      			<li><a href="#">¿Quienes Somos?</a></li>
+		      			<li><a href="#">F.A.Q</a></li>
+		      		</ul>
+	    		</div>
+	    		<div class="col">
+		      		<ul>
+		      			<li><h4>Servicios</h4></li>
+		      			<li><a href="#">Menu</a></li>
+		      			<li><a href="#">Reserva</a></li>
+		      			<li><a href="#">Contactanos</a></li>
+		      		</ul>
+	    		</div>
+	    		<div class="col">
+		      		<ul>
+		      			<li><h4>Redes Sociales</h4></li>
+		      			<li><a href="#">Twitter</a></li>
+		      			<li><a href="#">Facebook</a></li>
+		      			<li><a href="#">Instagram</a></li>
+		      		</ul>
+	    		</div>
+	  		</div>
+		</div>
+			<script type="text/javascript" src="Funciones/jquery.min.js"></script>
+			<script type="text/javascript" src="Funciones/jquery.easing.1.3.js"></script>
+			<script type="text/javascript" src="Funciones/scrollreveal.min.js"></script>
+			<script type="text/javascript" src="Funciones/menu.js"></script>
+			<script type="text/javascript" src="Funciones/pagination.js"></script>
+			<script>
+			</script>
+	</body>
+</html>
